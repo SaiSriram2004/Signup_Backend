@@ -56,7 +56,7 @@ router
       if (err) {
         return next(err);
       } else {
-        console.log("Hi from server");
+        //console.log("Hi from server");
         return res.json(data);
       }
     });
