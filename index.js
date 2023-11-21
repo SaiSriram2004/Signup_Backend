@@ -8,7 +8,7 @@ const app = express();
 mongoose.set("strictQuery", true);
 
 mongoose.connect(
-  "mongodb+srv://sriram:saisriram@cluster0.zlzti3b.mongodb.net/School"
+  "mongodb+srv://sriram:sriram@cluster0.zlzti3b.mongodb.net/School"
 );
 
 const db = mongoose.connection;
